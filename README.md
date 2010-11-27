@@ -12,10 +12,10 @@ A. How to get (and contribute) JMVC
            http://github.com/jupiterjs/jquerymx 
            http://github.com/jupiterjs/funcunit 
            http://github.com/jupiterjs/documentjs
-	   http://github.com/jupiterjs/env-js
-	   http://github.com/jupiterjs/jmvcdoc
-	   http://github.com/jupiterjs/mxui
-	   http://github.com/jupiterjs/mxutil
+           http://github.com/jupiterjs/env-js
+           http://github.com/jupiterjs/jmvcdoc
+           http://github.com/jupiterjs/mxui
+           http://github.com/jupiterjs/mxutil
 
 
   3. Add steal, javascriptmvc, funcunit, and documentjs as submodules of your project...
