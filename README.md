@@ -7,7 +7,7 @@ A. How to get (and contribute) JMVC
 
   1. Start a new project in git.
   
-  2. Fork ....
+  2. Fork modules to add them as my own submodules
            http://github.com/jupiterjs/steal 
            http://github.com/jupiterjs/jquerymx 
            http://github.com/jupiterjs/funcunit 
