@@ -12,17 +12,26 @@ A. How to get (and contribute) JMVC
            http://github.com/jupiterjs/jquerymx 
            http://github.com/jupiterjs/funcunit 
            http://github.com/jupiterjs/documentjs
-  
+	   http://github.com/jupiterjs/env-js
+	   http://github.com/jupiterjs/jmvcdoc
+	   http://github.com/jupiterjs/mxui
+	   http://github.com/jupiterjs/mxutil
+
+
   3. Add steal, javascriptmvc, funcunit, and documentjs as submodules of your project...
            git submodule add git@github.com:daneroo/steal.git steal
            git submodule add git@github.com:daneroo/jquerymx.git jquery
            git submodule add git@github.com:daneroo/funcunit.git funcunit
            git submodule add git@github.com:daneroo/documentjs.git documentjs
+           git submodule add git@github.com:daneroo/env-js.git envjs
+           git submodule add git@github.com:daneroo/jmvcdoc.git jmvcdoc
+           git submodule add git@github.com:daneroo/mxui.git mxui
+           git submodule add git@github.com:daneroo/mxutil.git mxutil
            
       * Notice javascriptmvc is under the jquery folder
   
   4. Learn a little more about submodules ...
-           http://johnleach.co.uk/words/archives/2008/10/12/323/git-submodules-in-n-easy-steps
+           [http://johnleach.co.uk/words/archives/2008/10/12/323/git-submodules-in-n-easy-steps]
            
   5. Make changes in steal or jmvc, and push them back to your fork.
   
