@@ -10,3 +10,15 @@
 [submodule "documentjs"]
 	path = documentjs
 	url = git@github.com:daneroo/documentjs.git
+[submodule "envjs"]
+	path = envjs
+	url = git@github.com:daneroo/env-js.git
+[submodule "jmvcdoc"]
+	path = jmvcdoc
+	url = git@github.com:daneroo/jmvcdoc.git
+[submodule "mxui"]
+	path = mxui
+	url = git@github.com:daneroo/mxui.git
+[submodule "mxutil"]
+	path = mxutil
+	url = git@github.com:daneroo/mxutil.git
