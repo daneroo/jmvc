@@ -33,6 +33,10 @@ A. How to get (and contribute) JMVC
   4. Learn a little more about submodules ...
            [http://johnleach.co.uk/words/archives/2008/10/12/323/git-submodules-in-n-easy-steps]
            
+  5. Cloning a tree with submodules
+     git submodule init
+     git submodule update
+
   5. Make changes in steal or jmvc, and push them back to your fork.
   
   6. Make a pull request to your fork.
