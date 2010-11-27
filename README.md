@@ -37,9 +37,10 @@ A. How to get (and contribute) JMVC
           git submodule init
           git submodule update
 
-  5. Make changes in steal or jmvc, and push them back to your fork.
+  6. Make changes in steal or jmvc, and push them back to your fork.
   
-  6. Make a pull request to your fork.
+  7. updating all submodules:
+          ./js scripts/pull_all.js
  
   
 B. Getting Started with JMVC
