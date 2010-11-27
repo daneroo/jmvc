@@ -1,0 +1,5 @@
+<%for(var i = 0; i < answers.length ; i++){%>
+	<tr <%= answers[i]%>>
+		<%= $.View('//sib/views/answer/show',answers[i])%>
+	</tr>
+<%}%>
