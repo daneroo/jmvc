@@ -1,11 +1,8 @@
 load('steal/rhino/utils.js')
 
 runCommand("git pull origin master")
-runCommand("cd documentjs && git pull origin master")
-runCommand("cd envjs && git pull origin master")
-runCommand("cd funcunit && git pull origin master")
-runCommand("cd jmvcdoc && git pull origin master")
-runCommand("cd jquery && git pull origin master")
-runCommand("cd mxui && git pull origin master")
-runCommand("cd mxutil && git pull origin master")
-runCommand("cd steal && git pull origin master")
+var submodules = ["documentjs","envjs","funcunit","jmvcdoc","jquery","mxui","mxutil","steal"];
+submodules.forEach(function(submodule){ 
+    runCommand("cd "+submodule+" && git pull origin master")
+  
+});
