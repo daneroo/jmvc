@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="build">
+    <property environment="env"/>
+    <condition property="js-file" value="js.bat">
+        <os family="windows"/>
+    </condition>
+    <property name="js-file" value="js"/>
+    <property name="js" location="${basedir}/${js-file}"/>
+    <property name="envjs" location="${basedir}/funcunit/env${js-file}"/>
+    <property name="app" value="sib"/>
+
+    <target name="build">
+        <exec executable="${js}">
+            <arg value="${app}/scripts/build.js"/>
+        </exec>
+    </target>
+
+    <target name="tests">
+        <antcall target="unit-tests"/>
+        <antcall target="func-tests"/>
+    </target>
+
+    <target name="func-tests">
+        <exec executable="${envjs}">
+            <arg value="${app}/funcunit.html"/>
+        </exec>
+    </target>
+
+    <target name="unit-tests">
+        <exec executable="${envjs}">
+            <arg value="${app}/qunit.html"/>
+        </exec>
+    </target>
+</project> 
